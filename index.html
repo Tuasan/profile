@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://cdn.bio.link/uploads/profile_pictures/2023-05-14/5t5a5OYhVbDk1VBssV8i6oOHjGhXner5.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.19/Tone.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<style>
+@media screen and (min-width: 1492px) {
+  .Mangxahoi div {
+      border-radius: 15px;
+      margin: 15px 0;
+  }
+  nav{
+  margin: 0 450px;
+  box-sizing: border-box;
+}
+#Facebook {
+  padding: 8px;
+  background: linear-gradient(139deg, rgb(73, 89, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Instagram {
+  padding: 8px;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Telegram {
+  padding: 8px;
+  background: linear-gradient(139deg, rgb(73, 161, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Youtube {
+  padding: 8px;
+  background: linear-gradient(139deg, rgb(255, 73, 73) 50%, rgba(255, 0, 0, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Khac {
+  padding: 8px;
+  background: linear-gradient(100deg, rgb(246, 73, 255) 40%, rgba(144, 0, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+
+}
+@media screen and (min-width: 1234px) and (max-width: 1491.9px) {
+  .Mangxahoi div {
+      border-radius: 15px;
+      margin: 15px 0;
+  }
+  nav{
+  margin: 0 420px;
+  box-sizing: border-box;
+}
+#Facebook {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(73, 89, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Instagram {
+  padding: 6px;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Telegram {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(73, 161, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Youtube {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(255, 73, 73) 50%, rgba(255, 0, 0, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Khac {
+  padding: 6px;
+  background: linear-gradient(100deg, rgb(246, 73, 255) 40%, rgba(144, 0, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+}
+@media screen and (min-width: 868px) and (max-width: 1233.9px) {
+  .Mangxahoi div {
+      border-radius: 15px;
+      margin: 15px 0;
+  }
+  nav{
+  margin: 0 320px;
+  box-sizing: border-box;
+}
+#Facebook {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(73, 89, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Instagram {
+  padding: 6px;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Telegram {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(73, 161, 255) 50%, rgba(0, 198, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Youtube {
+  padding: 6px;
+  background: linear-gradient(139deg, rgb(255, 73, 73) 50%, rgba(255, 0, 0, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+#Khac {
+  padding: 6px;
+  background: linear-gradient(100deg, rgb(246, 73, 255) 40%, rgba(144, 0, 255, 0.84) 100%);
+  border-style: solid;
+  border-color: white;
+  font-style: opacity;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 867.9px) {
+  .Mangxahoi div {
+      border-radius: 15px;
+      margin: 15px 0;
+  }
+  nav{
+  margin: 0 220px;
+  box-sizing: border-box;
+}}
+@media screen and (min-width: 600px) and (max-width: 699.9px) {
+  .Mangxahoi div {
+      border-radius: 15px;
+      margin: 15px 0;
+  }
+  nav{
+  margin: 0 120px;
+  box-sizing: border-box;
+}}
+</style> 
+<title>тυαѕαи-иg</title>
+
+ </head>
+
+<body>
+  
+<div class="video-container">
+  <video autoplay loop muted>
+  <source type="video/mp4" src="https://cdn.glitch.me/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/background.mp4?v=1690944925097">
+  </video>
+  </div> 
+<header>
+<div class="vitri"><p id="info">Your info:</p>
+  <div id="content" class="hidden">
+  <span id="ip-address"></span> <span id="isp"></span>
+  </div>
+  <div id="content1" class="hidden1">
+  <span id="region"></span>,<span id="country"></span>
+  </div>
+</div>
+</header>
+<div id="avatar" ></div>
+<script>  
+var imageUrls = [
+  'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/artworks-ch6IuFFDL9yNYP6i-9AfGZg-t500x500.jpg?v=1713986051812',
+  'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/29_62fa079ca892b.jpg?v=1698589390645',
+  'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/007ec3ed-8939-4dea-9617-f1846558d10c.jpg?v=1707929977713'
+
+];
+function getRandomImageUrl() {
+  return imageUrls[Math.floor(Math.random() * imageUrls.length)];
+}
+var img = document.createElement('img');
+img.src = getRandomImageUrl();
+document.getElementById('avatar').appendChild(img);
+  </script>
+<div class = "username">Nguyen Duc Tuan
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/512px-Twitter_Verified_Badge.svg.png" alt="Tích Xanh">
+      </div>      
+
+<nav>
+<h2>
+    <div class="Mangxahoi">
+    <a href="https://www.facebook.com/ndtuan.vn/" target="_blank" rel="noopener noreferrer">
+      <div id="Facebook" >Facebook</div></a>      
+    <a href="https://www.instagram.com/tuasan_d/" target="_blank" rel="noopener noreferrer">
+      <div id="Instagram">Instagram</div></a>   
+    <a href="https://t.me/TuasanAI_bot" target="_blank" rel="noopener noreferrer">
+      <div id="Telegram" >Telegram</div></a>  
+    <a href="https://www.youtube.com/@tuasan_d" target="_blank" rel="noopener noreferrer">
+      <div id="Youtube">Youtube</div></a>
+    <a href="vpn.html" target="_blank" rel="noopener noreferrer">
+      <div id="Khac">Khác</div></a>
+
+  </div>      
+</h2>
+</nav>
+
+<footer>
+  <p>&copy; 2024 Website of Tuasan</p>
+</footer> 
+<script>
+  // Lấy phần tử mà bạn muốn tắt menu ngữ cảnh
+var element = document.querySelector("body");
+// Thêm trình xử lý sự kiện cho sự kiện contextmenu
+element.addEventListener("contextmenu", function(event) {
+  // Ngăn chặn hành vi mặc định của trình duyệt
+  event.preventDefault();
+  // Thêm bất kỳ hành động nào khác bạn muốn thực hiện ở đây
+});
+  </script> 
+  
+  </body>
+</html>
+
+
+
+
+
+<!--'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/fallinlove.mp3?v=1699125661311',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/inintora.mp3?v=1699125670024',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/adqvcd.mp3?v=1699125671288',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/hpdekc.mp3?v=1699125674754',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/daybien.mp3?v=1699125649646',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/qndqy.mp3?v=1699125646436',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/ytkxtd.mp3?v=1699125625448',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/nectt.mp3?v=1699122943405',
+    'https://cdn.glitch.global/8ba93f13-8ce9-46f2-8022-116e9a21c7b9/knmyk.mp3?v=1699122935617',-->
